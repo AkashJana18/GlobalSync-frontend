@@ -1,6 +1,23 @@
-# GlobalSync: Revolutionizing Global Workforce Management
+# GlobalSync <Typescript/Nextjs>
 
 **GlobalSync** is an innovative platform designed to empower remote teams to work seamlessly across different time zones. By providing intuitive tools for time zone coordination, collaboration, and scheduling, GlobalSync ensures productivity and convenience for global teams.
+
+# 🚀 Getting Started  
+
+### Open Using Daytona  
+
+1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
+2. **Create the Workspace**:  
+   ```bash  
+   daytona create https://github.com/AkashJana18/GlobalSync-frontend
+   ```  
+3. **Start the Application**:  
+   ```bash  
+   npm run dev
+   ```  
+
+---
+
 
 ## 🌟 Features
 
@@ -9,63 +26,20 @@
 - AI-powered recommendations for meeting times that are convenient for all team members across various time zones.
 - Real-time visualization of overlapping working hours.
 
-### 2. **Kestra Integration**
-
-- Leverage **Kestra** workflows for streamlined task automation and scheduling.
-- Simplify workflows with robust event-driven automation.
-
-### 3. **Team Management**
+### 2. **Team Management**
 
 - Centralized platform for team information and schedules.
 - Manage availability and priorities at a glance.
 
-### 4. **Customizable Notifications**
+### 3. **Customizable Notifications**
 
 - Smart reminders for meetings and deadlines tailored to individual preferences.
 - Reduce meeting fatigue with optimized scheduling.
 
-### 5. **User-Friendly Interface**
+### 4. **User-Friendly Interface**
 
 - A sleek and modern design for intuitive navigation.
 - Accessible on web and mobile for flexibility.
-
----
-
-## 🚀 Installation
-
-### Prerequisites
-
-- Node.js v14+
-- Python 3.9+
-- Docker (optional, for containerized deployment)
-
-### Setup
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/UtkarshUmre/GlobalSync.git
-   cd GlobalSync
-   ```
-
-2. **Install Dependencies**
-
-   ```bash
-   npm install        # For frontend dependencies
-   pip install -r requirements.txt  # For backend dependencies
-   ```
-
-3. **Start the Application**
-
-   ```bash
-   npm start          # Starts the frontend
-   python manage.py   # Starts the backend
-   ```
-
-4. **Run with Docker** (Optional)
-   ```bash
-   docker-compose up
-   ```
 
 ---
 
@@ -79,23 +53,10 @@
 ### Backend:
 
 - Python (Django/Flask/FastAPI)
-- Kestra for automation
 
 ### Database:
 
 - PostgreSQL
-
-### Deployment:
-
-- Docker
-- AWS/GCP/Azure
-
----
-
-## 📚 Documentation
-
-Detailed documentation for installation, features, and APIs is available at: [GlobalSync Docs](https://docs.globalsync.com)
-
 ---
 
 ## 🤝 Contributing
@@ -119,14 +80,6 @@ If you encounter any issues, please report them [here](https://github.com/Global
 ## 📜 License
 
 GlobalSync is licensed under the [MIT License](LICENSE).
-
----
-
-## 🌐 Connect with Us
-
-- **Website**: [www.globalsync.com](https://www.globalsync.com)
-- **Email**: support@globalsync.com
-- **Twitter**: [@GlobalSyncHQ](https://twitter.com/GlobalSyncHQ)
 
 ---
 
