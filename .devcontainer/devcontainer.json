@@ -1,6 +1,6 @@
 {
     "name": "GlobalSync Development Container",
-    "image": "mcr.microsoft.com/devcontainers/javascript-node:14-bullseye",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node",
     "forwardPorts": [
       3000
     ],
