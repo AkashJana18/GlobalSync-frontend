@@ -5,9 +5,7 @@ import {
   IconArrowLeft,
   IconBrandTabler,
   IconCalendarTime,
-  IconUserBolt,
-  IconUsers,
-  IconWorld,
+  IconWorld
 } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -38,20 +36,20 @@ export function SidebarDemo({
         <IconCalendarTime className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
       ),
     },
-    {
-      label: "Team Sights",
-      href: "#",
-      icon: (
-        <IconUsers className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
-      ),
-    },
-    {
-      label: "Sustainability",
-      href: "#",
-      icon: (
-        <IconUserBolt className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
-      ),
-    },
+    // {
+    //   label: "Team Sights",
+    //   href: "#",
+    //   icon: (
+    //     <IconUsers className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+    //   ),
+    // },
+    // {
+    //   label: "Sustainability",
+    //   href: "#",
+    //   icon: (
+    //     <IconUserBolt className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+    //   ),
+    // },
     {
       label: "Logout",
       href: "#",
