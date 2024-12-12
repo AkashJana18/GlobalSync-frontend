@@ -6,12 +6,12 @@ import { AnimatedTestimonialsDemo } from "@/components/Testimonials";
 
 export default function Home() {
   return (
-    <>
-      <Hero />
+    <div className="relative flex-col items-center justify-center">
+      <Hero />      
       <Features />
       <AnimatedTestimonialsDemo />
       <FAQ />
       <Footer />
-    </>
+    </div>
   );
 }
